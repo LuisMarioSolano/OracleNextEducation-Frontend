@@ -9,10 +9,23 @@
     flex-direction: row;
 }
 
-/* Mapa de cursos */
-.rodapePrincipal-navMap-list 
-.navmap-list-title {
+/* Cursos */
+
+.contenidoPrincipal-cursos {
     display: flex;
+    flex-wrap: wrap;
+}
+.contenidoPrincipal-cursos-link {
+    display: flex;
+    width: 23%;
+}
+
+/* Mapa de cursos */
+.rodapePrincipal-navMap-list {
+    display: flex;
+    flex-direction: column;
+    height: 255px;
+    flex-wrap: wrap;
 }
 
 /* Footer */
@@ -25,10 +38,4 @@
     align-items: center;
     justify-content: space-around;
     width: 75%;
-}
-.rodapePrincipal-navMap-list {
-    display: flex;
-    flex-direction: column;
-    height: 255px;
-    flex-wrap: wrap;
 }
