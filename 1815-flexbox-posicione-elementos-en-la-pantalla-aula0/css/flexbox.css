@@ -1,3 +1,4 @@
+/* Header */
 .headerPrincipal .container {
     display: flex;
     align-items: center;
@@ -7,6 +8,14 @@
     display: flex;
     flex-direction: row;
 }
+
+/* Mapa de cursos */
+.rodapePrincipal-navMap-list 
+.navmap-list-title {
+    display: flex;
+}
+
+/* Footer */
 .rodapePrincipal-patrocinadores .container {
     display: flex;
     justify-content: space-between;
@@ -17,6 +26,9 @@
     justify-content: space-around;
     width: 75%;
 }
-.rodapePrincipal-contatoForm-fieldset {
+.rodapePrincipal-navMap-list {
     display: flex;
+    flex-direction: column;
+    height: 255px;
+    flex-wrap: wrap;
 }
