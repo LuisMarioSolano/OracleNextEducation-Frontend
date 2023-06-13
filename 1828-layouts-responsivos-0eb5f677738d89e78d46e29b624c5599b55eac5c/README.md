@@ -1,3 +1,6 @@
 # Proyecto Apeperia
 
-Archivos iniciales del proyecto para Apeperia del curso "Layouts Responsivos: Trabajando con layouts mobile", de Alura LATAM.
+## Layouts Responsivos: Trabajando con layouts mobile
+
+
+[Regresar al inicio](../README.md)
