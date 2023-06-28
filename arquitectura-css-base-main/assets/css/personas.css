@@ -3,3 +3,10 @@
     justify-content: space-between;
     padding-top: 3rem;
 }
+
+@media (max-width : 768px) {
+    .personas {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
